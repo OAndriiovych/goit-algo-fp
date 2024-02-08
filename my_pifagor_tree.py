@@ -20,6 +20,6 @@ def main():
     turtle.left(90)
     draw_pifagor_tree(turtle, 200, level)
     turtle.mainloop()
-8
+
 if __name__ == "__main__":
     main()
