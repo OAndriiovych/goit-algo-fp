@@ -63,9 +63,9 @@ def draw_tree(tree_root):
     plt.show()
 
 
-nums = [0, 4, 5, 10, 1, 3]
-heapq.heapify(nums)
-root = Node(nums[0])
-root.add_children(nums, 0)
-
-draw_tree(root)
+if __name__ == "__main__":
+    nums = [0, 4, 5, 10, 1, 3]
+    heapq.heapify(nums)
+    root = Node(nums[0])
+    root.add_children(nums, 0)
+    draw_tree(root)
