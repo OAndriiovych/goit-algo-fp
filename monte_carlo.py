@@ -11,6 +11,7 @@ for _ in range(num_trials):
 
 probabilities = {i: count / num_trials for i, count in sum_counts.items()}
 
-print("Сума\tЙмовірність")
+print("Сума | Ймовірність")
+print("--- | ---")
 for total, probability in probabilities.items():
-    print(f"{total}. {probability*100:.2f}")
+    print(f"{total} | {probability*100:.2f}")
